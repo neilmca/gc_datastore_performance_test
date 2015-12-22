@@ -1,0 +1,17 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: datastoretest.app
+
+#builtins:
+#- appstats: on
+
+
+
+
+
+
+
